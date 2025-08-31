@@ -1,9 +1,9 @@
 import { BsCoin } from "react-icons/bs";
-import profile from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
 const Header = () => {
     return (
         <div className="flex justify-between items-center">
-            <img src={profile} alt="" />
+            <img src={logo} alt="" />
             <div className="flex items-center gap-10">
                 <ul className="flex gap-10">
                     <li>Home</li>
