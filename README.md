@@ -1,12 +1,22 @@
-# React + Vite
+# 🏏 BPL-DREAM 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BPL-DREAM 11** is a React-based web application where users can select and manage cricket players to build their dream team.  
+It follows a Figma design and implements features like coin management, player selection with validations, notifications and dynamic UI updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
+- **React (v6)** – Core framework  
+- **JavaScript (ES6+)** – Logic and interactivity  
+- **HTML5 & CSS3** – Structure and styling  
+- **React-Toastify** – User-friendly notifications  
+- **LocalStorage** – Persistent newsletter subscription  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+1. **Player Selection System** – Choose players with validations (max 6 players, no duplicates, coin balance check).  
+2. **Coin Management & Notifications** – Add coins, purchase players, and get real-time feedback via React-Toastify.  
+3. **Dynamic UI Sections** – Toggle between Available and Selected players with live counts and the ability to remove players.  
+
+---
