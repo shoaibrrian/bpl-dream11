@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import './App.css'
-import Banner from './components/banner/banner'
+import Banner from './components/banner/Banner'
 import Header from './components/header/Header'
 
 function App() {
