@@ -11,7 +11,7 @@ const Banner = ({ handleAddCoins }) => {
             <p className='text-2xl text-white font-medium'>Beyond Boundaries Beyond Limits</p>
             <button
                 onClick={() => { handleAddCoins() }}
-                className="text-base font-bold bg-[#E7FE29] px-5 py-3.5 rounded-xl outline-2 outline-[#E7FE29] outline-offset-8 cursor-pointer">Claim Free Credit
+                className="text-base font-bold bg-[#E7FE29] px-5 py-3.5 rounded-xl outline-2 outline-[#E7FE29] outline-offset-8 cursor-pointer hover:outline-black">Claim Free Credit
             </button>
 
 
