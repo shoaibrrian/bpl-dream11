@@ -1,6 +1,6 @@
 import { BsCoin } from "react-icons/bs";
 import logo from "../../assets/logo.png";
-const Header = () => {
+const Header = ({coins}) => {
     return (
         <div className="flex justify-between items-center mb-6">
             <img src={logo} alt="" />
@@ -11,7 +11,7 @@ const Header = () => {
                     <li>Teams</li>
                     <li>Schedules</li>
                 </ul>
-                <button className="flex items-center gap-2 border-2 rounded-lg p-2 border-gray-400">0 Coin <BsCoin className="text-yellow-500 text-xl font-bold" /></button>
+                <button className="flex items-center gap-2 border-2 rounded-lg p-2 border-gray-400 font-bold">{coins} Coins <BsCoin className="text-yellow-500 text-2xl" /></button>
             </div>
         </div>
     );
