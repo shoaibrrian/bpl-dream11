@@ -1,0 +1,58 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Viral Kohli",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 1500000,
+      "image": "https://example.com/viralkohli.png"
+    },
+    {
+      "id": 2,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 1200000,
+      "image": "https://example.com/sakib.png"
+    },
+    {
+      "id": 3,
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 1000000,
+      "image": "https://example.com/gale.png"
+    },
+    {
+      "id": 4,
+      "name": "AB de Villiers",
+      "country": "South Africa",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 1100000,
+      "image": "https://example.com/ab.png"
+    },
+    {
+      "id": 5,
+      "name": "Malinga Slinga",
+      "country": "Sri Lanka",
+      "role": "Bowler",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 900000,
+      "image": "https://example.com/malinga.png"
+    },
+    {
+      "id": 6,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 1300000,
+      "image": "https://example.com/smith.png"
+    }
+  ]
+}
