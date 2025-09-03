@@ -7,7 +7,7 @@
       "role": "All-Rounder",
       "battingStyle": "Right-Hand-Bat",
       "price": 1500000,
-      "image": "https://example.com/viralkohli.png"
+      "image": "https://i.ibb.co.com/RpQbJywh/Virat.jpg"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "role": "All-Rounder",
       "battingStyle": "Left-Hand-Bat",
       "price": 1200000,
-      "image": "https://example.com/sakib.png"
+      "image": "https://i.ibb.co.com/rRqpfXPc/Shakib.jpg"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "role": "Batsman",
       "battingStyle": "Left-Hand-Bat",
       "price": 1000000,
-      "image": "https://example.com/gale.png"
+      "image": "https://i.ibb.co.com/1Jnjc65H/Gayle.jpg"
     },
     {
       "id": 4,
@@ -34,16 +34,16 @@
       "role": "Batsman",
       "battingStyle": "Right-Hand-Bat",
       "price": 1100000,
-      "image": "https://example.com/ab.png"
+      "image": "https://i.ibb.co.com/Pv1d6gDZ/AB-de-Villiers.jpg"
     },
     {
       "id": 5,
-      "name": "Malinga Slinga",
+      "name": "Lasith Malinga",
       "country": "Sri Lanka",
       "role": "Bowler",
       "battingStyle": "Right-Hand-Bat",
       "price": 900000,
-      "image": "https://example.com/malinga.png"
+      "image": "https://i.ibb.co.com/fVdbChWD/Malinga.jpg"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "role": "Batsman",
       "battingStyle": "Right-Hand-Bat",
       "price": 1300000,
-      "image": "https://example.com/smith.png"
+      "image": "https://i.ibb.co.com/4gNdNyhx/Steve-Smith.jpg"
     }
   ]
 }
