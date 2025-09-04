@@ -4,7 +4,7 @@ const Player = ({ player }) => {
 
     return (
         <div className="p-6 border border-[rgba(19,19,19,0.1)] rounded-2xl space-y-4">
-            <img className="w-96 rounded-2xl" src={image} alt="" />
+            <img className="w-96 h-60 object-cover rounded-2xl" src={image} alt="" />
             <div className="flex items-center gap-3">
                 <FaUserCircle className="text-2xl" />
                 <h2 className="text-xl font-semibold">{name}</h2>
