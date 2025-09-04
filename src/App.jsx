@@ -3,6 +3,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import './App.css'
 import Banner from './components/banner/Banner'
 import Header from './components/header/Header'
+import Players from './components/players/Players'
 
 function App() {
   const [coins, setCoins] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         draggable
         theme="colored"
       />
+      <Players></Players>
     </>
   )
 }
