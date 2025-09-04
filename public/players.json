@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Viral Kohli",
+      "flag": "https://i.ibb.co.com/gkRyzs2/IND-flag.jpg",
       "country": "India",
       "role": "All-Rounder",
       "battingStyle": "Right-Hand-Bat",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "name": "Shakib Al Hasan",
+      "flag": "https://i.ibb.co.com/TBQLKcwr/BD-flag.jpg",
       "country": "Bangladesh",
       "role": "All-Rounder",
       "battingStyle": "Left-Hand-Bat",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "name": "Chris Gayle",
+      "flag": "https://i.ibb.co.com/6JtyhxfQ/WI-flag.jpg",
       "country": "West Indies",
       "role": "Batsman",
       "battingStyle": "Left-Hand-Bat",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "name": "AB de Villiers",
+      "flag": "https://i.ibb.co.com/Lz8kb8Nz/SA-flag.jpg",
       "country": "South Africa",
       "role": "Batsman",
       "battingStyle": "Right-Hand-Bat",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "name": "Lasith Malinga",
+      "flag": "https://i.ibb.co.com/CT25d55/SL-flag.jpg",
       "country": "Sri Lanka",
       "role": "Bowler",
       "battingStyle": "Right-Hand-Bat",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "name": "Steve Smith",
+      "flag": "https://i.ibb.co.com/0yt70WMk/Aust-flag.jpg",
       "country": "Australia",
       "role": "Batsman",
       "battingStyle": "Right-Hand-Bat",
