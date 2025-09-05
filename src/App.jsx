@@ -28,7 +28,7 @@ function App() {
     }
 
     if (coins < player.price) {
-      toast.error("Not enough coins to select this player!");
+      toast.error("Not enough credits to select this player!");
       return;
     }
 
