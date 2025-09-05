@@ -53,7 +53,7 @@ const Players = ({ handleAddPlayer, selectedPlayers }) => {
                 </div>
             ) : (
                 <SelectedPlayers selectedPlayers={selectedPlayers}
-                setShowSelected={setShowSelected} />
+                    setShowSelected={setShowSelected} />
             )}
 
         </div>
