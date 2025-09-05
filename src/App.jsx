@@ -22,9 +22,17 @@ function App() {
     }
 
     if (selectedPlayers.length >= 6) {
-        toast.error("You can only select up to 6 players!");
-        return;
+      toast.error("You can only select up to 6 players!");
+      return;
     }
+
+    if (coins < player.price) {
+      toast.error("Not enough coins to select this player!");
+      return;
+    }
+
+    // Deduct coins
+    setCoins(coins - player.price);
 
     const newSelectedPlayers = [...selectedPlayers, player];
     setSelectedPlayers(newSelectedPlayers);
@@ -51,6 +59,7 @@ function App() {
       <Players
         handleAddPlayer={handleAddPlayer}
         selectedPlayers={selectedPlayers}
+        coins={coins}
       />
     </>
   )

@@ -1,5 +1,5 @@
 import { FaUserCircle } from "react-icons/fa";
-const Player = ({ player, handleAddPlayer }) => {
+const Player = ({ player, handleAddPlayer, coins }) => {
     const { name, image, country, role, battingStyle, price, flag } = player;
 
     return (

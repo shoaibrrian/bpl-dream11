@@ -1,4 +1,4 @@
-import { BsCoin } from "react-icons/bs";
+import { PiCurrencyCircleDollarBold } from "react-icons/pi";
 import logo from "../../assets/logo.png";
 const Header = ({coins}) => {
     return (
@@ -11,7 +11,7 @@ const Header = ({coins}) => {
                     <li>Teams</li>
                     <li>Schedules</li>
                 </ul>
-                <button className="flex items-center gap-2 border-2 rounded-lg p-2 border-gray-400 font-bold">{coins} Coins <BsCoin className="text-yellow-500 text-2xl" /></button>
+                <button className="flex items-center gap-2 border-2 rounded-lg p-2 border-gray-400 font-bold">{coins}<PiCurrencyCircleDollarBold className="text-2xl text-black"/></button>
             </div>
         </div>
     );

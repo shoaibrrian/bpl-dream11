@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Player from "../player/Player";
 import SelectedPlayers from "../selectedPlayers/SelectedPlayers";
 
-const Players = ({ handleAddPlayer, selectedPlayers }) => {
+const Players = ({ handleAddPlayer, selectedPlayers, coins }) => {
 
     const [players, setPlayers] = useState([])
     const [showSelected, setShowSelected] = useState(false);
@@ -48,6 +48,7 @@ const Players = ({ handleAddPlayer, selectedPlayers }) => {
                             key={player.id}
                             player={player}
                             handleAddPlayer={handleAddPlayer}
+                            coins={coins}
                         />
                     ))}
                 </div>
