@@ -1,5 +1,5 @@
 import { FaUserCircle } from "react-icons/fa";
-const Player = ({ player }) => {
+const Player = ({ player, handleAddPlayer }) => {
     const { name, image, country, role, battingStyle, price, flag } = player;
 
     return (
@@ -19,7 +19,7 @@ const Player = ({ player }) => {
             <p className="text-base font-semibold">{battingStyle}</p>
             <div className="flex justify-between items-center">
                 <p className="text-base font-semibold">Price: ${price}</p>
-                <button  className="text-sm border border-[rgba(19,19,19,0.1)] rounded-lg px-4 py-2.5 cursor-pointer hover:bg-[rgba(19,19,19,0.05)]">Choose Player</button>
+                <button  className="text-sm border border-[rgba(19,19,19,0.1)] rounded-lg px-4 py-2.5 cursor-pointer hover:bg-[rgba(19,19,19,0.05)]" onClick={() => handleAddPlayer(player)}>Choose Player</button>
             </div>
         </div>
     );
