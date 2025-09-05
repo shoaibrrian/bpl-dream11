@@ -42,26 +42,28 @@ function App() {
 
   return (
     <>
-      <Header coins={coins} />
-      <Banner handleAddCoins={handleAddCoins} />
+      <div className='max-w-7xl mx-auto px-8 pt-8'>
+        <Header coins={coins} />
+        <Banner handleAddCoins={handleAddCoins} />
 
-      <ToastContainer
-        position="top-center"
-        autoClose={3000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        pauseOnHover
-        draggable
-        theme="colored"
-      />
+        <ToastContainer
+          position="top-center"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          pauseOnHover
+          draggable
+          theme="colored"
+        />
 
-      {/* ✅ Pass selectedPlayers into Players */}
-      <Players
-        handleAddPlayer={handleAddPlayer}
-        selectedPlayers={selectedPlayers}
-        coins={coins}
-      />
+        {/* ✅ Pass selectedPlayers into Players */}
+        <Players
+          handleAddPlayer={handleAddPlayer}
+          selectedPlayers={selectedPlayers}
+          coins={coins}
+        />
+      </div>
       <Footer />
     </>
   )
