@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/banner/Banner'
 import Header from './components/header/Header'
 import Players from './components/players/Players'
+import Footer from './components/footer/Footer';
 
 function App() {
   const [coins, setCoins] = useState(0);
@@ -61,6 +62,7 @@ function App() {
         selectedPlayers={selectedPlayers}
         coins={coins}
       />
+      <Footer />
     </>
   )
 }
